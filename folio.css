@@ -1,0 +1,263 @@
+
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif, sans-serif;
+    background: linear-gradient(to bottom right, #104676, #0c729d);
+    color: #333;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  
+  #main-heading {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #052856;
+    margin-top: 20px;
+    animation: fadeIn 1.5s ease-in-out;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(35, 220, 177, 0.776);
+  }
+  
+  
+  #nav-cont {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #057acd;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #nav-cont div a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  #nav-cont div:hover a {
+    transform: scale(1.1);
+    color: #fca311;
+  }
+
+
+  #bg-img {
+    text-align: center;
+    background: url('./professional-technology-infographic-template_23-2148446453.avif') no-repeat center center / cover;
+    padding: 60px 20px;
+    color: rgb(17, 11, 30);
+    font-family:'Times New Roman', Times, serif;
+    animation: slideDown 1.0s ease-in-out;
+    border-bottom: 5px solid #fca311;
+  }
+  
+  #my-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-size:xx-large;
+    font-size:5rem;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(35, 220, 177, 0.776);
+    
+  }
+  
+  #profile-sec img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4.5px solid #07ab6f;
+     box-shadow: 10px 10px 14px rgba(9, 211, 137, 0.596);
+    transition: transform 0.3s, box-shadow 0.4s;
+  }
+  
+  #profile-sec img:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  div {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+  }
+  
+  div:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .sec {
+    margin: 50px auto;
+    padding: 30px;
+    width: 80%;
+    background: #3fa3f5;
+    border-radius: 12px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    color: #055ed3;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .heading:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background: #fca311;
+    bottom: -5px;
+    left: 0;
+  }
+  
+  .edu-cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .edu-cont-box {
+    flex: 1 1 calc(50% - 20px);
+    background: #d2dee0;
+    padding: 20px;
+    border: 2px solid #0b4695;
+    border-radius: 10px;
+   
+    
+  }
+  
+  .edu-cont-box:hover {
+    color: white;
+     background: linear-gradient(145deg, #4f46e5, #06b6d4);
+    transform: scale(1.03);
+  }
+  
+  .edu-cont-box h3,
+  .edu-cont-box h4 {
+    color: inherit;
+  }
+  
+  .edu-duration {
+    font-style: italic;
+    color: inherit;
+  } 
+
+
+.notelink{
+  display: flex;
+  justify-content: center;
+  font-size: 2.0rem;
+  height: 5rem;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.allink{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  height: 5rem;
+}
+
+  .icon1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: transform 0.3sec ease;
+    margin: 0 6rem;
+    gap: 40px;
+    
+     transition: transform 0.3s, background 0.3s;
+     
+}
+
+.icon1:hover{
+  transform: scale(1.2);
+  box-shadow: 10px 10px 14px rgba(9, 211, 137, 0.596);
+}
+  #Contact_Us {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+  }
+  
+  #Contact_Us form {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #Contact_Us input,
+  #Contact_Us textarea,
+  #Contact_Us button {
+    width: 80%;
+    max-width: 500px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #a7dcee;
+    font-size: 1rem;
+    box-shadow: 10px 10px 14px rgba(19, 227, 193, 0.596);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  #Contact_Us input:hover,
+  #Contact_Us textarea:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #Contact_Us button {
+    background: #004aad;
+    color: rgb(46, 195, 64);
+    border: none;
+    cursor: pointer;
+  }
+  
+  #Contact_Us button:hover {
+    background: #fca311;
+    transform: scale(1.1);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #0063e4;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
